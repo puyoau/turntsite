@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+## WHAT IS TURNT
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+TURNT aims to provide a quake-like movement game for the movement fans. Taking inspiration from mods/extensions like defrag, reflex race, dbt time trials, and warsow race, TURNT is designed from the outset to use movement and racing as its flagship game mode, as well as provide excellent leaderboards, streamer and spectator functionality tailored for the genre.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## GET TURNT
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+not yet mate

@@ -1,10 +1,10 @@
 site_name: TURNT
-nav:
-  - Home: index.md
-  - About: about.md
-  - Code Examples: code-examples.md
-  - Content Tabs: content-tabs.md
-  - Admonitions: admonitions.md
+# nav:
+#  - Home: index.md
+#  - About: about.md
+#  - Code Examples: code-examples.md
+#  - Content Tabs: content-tabs.md
+#  - Admonitions: admonitions.md
 theme:
   name: material
   palette: 
@@ -13,23 +13,24 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
-      primary: green
-      accent: deep purple
+      primary: indigo
+      accent: lime
 
   # Light mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Dark mode
-      primary: blue
+      primary: indigo
       accent: deep orange
   features:
     - content.code.copy
     - navigation.footer
   font:
-    text: Merriweather Sans
+    text: Sofia Sans
     code: Red Hat Mono
   favicon: assets/favicon.ico
+  logo: assets/turnt-logo-medium.png
 
 markdown_extensions:
   - attr_list
@@ -48,11 +49,14 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-extra:
-  social:
-    - icon: simple/youtube
-      link: https://youtube.com/@james-willett
-    - icon: simple/linkedin
-      link: https://linkedin.com/in/willettjames
+plugins:
+  - blog
 
-copyright: Copyright &copy; 2024 James Willett
+#extra:
+#  social:
+#    - icon: simple/youtube
+#      link: https://youtube.com/
+#    - icon: simple/discord
+#      link: https://linkedin.com/in/willettjames
+
+copyright: Copyright &copy; 2024 elim Engineering
